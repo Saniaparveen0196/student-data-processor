@@ -1,23 +1,19 @@
-# Sales Summary Web App
+# Data Processor
 
-This web app reads sales data from a CSV file and displays a summary.
+A simple data processor that displays a bar chart and allows date range filtering and export to JSON.
 
 ## Features
 
-* Reads sales data from a CSV file
-* Calculates and displays total sales, average sale amount, and number of transactions
-* Displays results in a clean table format
+* Bar chart visualization using Chart.js
+* Date range filtering
+* Export to JSON functionality
 
 ## Dependencies
 
-* None (static web app)
+* Chart.js
 
 ## Usage
 
-1. Open `index.html` in a web browser
-2. Pass an image URL as a query parameter (e.g. `?url=https://example.com/image.jpg`)
-3. The app will display the image and a summary table
-
-## Contributing
-
-Pull requests are welcome!
+1. Open `index.html` in a web browser.
+2. Pass an image URL as a query parameter, e.g. `?url=https://example.com/image.jpg`.
+3. The bar chart will be displayed with product sales data from `products.json`.
